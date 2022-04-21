@@ -118,7 +118,7 @@ let citations = [
 
 
 function Quote() {
-    
+    document.createElement("div");
 }
 
 for (let i = 0; i < citations.length; i++) {
