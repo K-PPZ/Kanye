@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #B3D4FC;
+    text-align: center;
+    padding: 50px 5px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 165px 10px;
+}
+
+footer {
+    background-color: #B3D4FC;
+    padding: 0.5px 10px;
+}
