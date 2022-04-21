@@ -116,6 +116,7 @@ let citations = [
     "Winning is the only option"
 ];
 
+let random = Math.random() * (115 - 1) + 1;
 
 for (let i = 0; i < citations.length; i++) {
 
