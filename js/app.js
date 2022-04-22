@@ -1,8 +1,19 @@
 fetch("https://api.kanye.rest/")
     .then((response) => response.json())
     .then((data) => {
-        function Quote() {
-            document.createElement("div");
-        }
+
+
+
+
+        const Quote = document.getElementById("Quote");
+
+        Quote.addEventListener('click', event => {
+            let Div = document.createElement("div");
+            document.getElementById("main").appendChild(Div);
+          });
+
+
+
+
     })
     .catch((error) => console.log(error));
