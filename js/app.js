@@ -3,12 +3,13 @@ fetch("https://api.kanye.rest/")
     .then((data) => {
 
 
-
-
         const Quote = document.getElementById("Quote");
-
+        
         Quote.addEventListener('click', event => {
+            
+            console.log(data.quote);
             let Div = document.createElement("div");
+            Div.textContent += data.quote;
             document.getElementById("main").appendChild(Div);
 
             let Button1 = document.createElement("button");
@@ -19,8 +20,6 @@ fetch("https://api.kanye.rest/")
             Button2.textContent = "Down";
             document.getElementById("main").appendChild(Button2);
           });
-
-
 
 
     })
